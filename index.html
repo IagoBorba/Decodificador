@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Decodificador Deadpool</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <header>
+                    <img class="vector-alura" src="./img/deadpool_logo-removebg-preview.png" alt="Logo da Deadpool">
+                </header>
+
+                <section class="entrada-mensagem">
+                    <textarea class="entrada" placeholder="Digite seu texto"></textarea>
+
+                    <div class="informação">
+                        <img src="./img/vermelho-removebg-preview.png" class="aviso-img">
+                        <p>Apenas letras minúsculas e sem acento</p>
+                    </div>
+
+                    <div class="decodificadores">
+                        <button id="button-cripto">Criptografar</button>
+                        <button id="button-descripto">Descriptografar</button>
+                    </div>
+
+                </section>
+
+                <section class="saida-mensagem">
+                    <div class="tela-inicial">
+                        <img src="./img/Deadpool_deitado-removebg-preview.png">
+                        <h1>Nenhuma mensagem encontrada</h1>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+                    </div>
+
+                    <div class="tela-final">
+                        <textarea class="saida"></textarea>
+                        <button id="button-copy">Copiar</button>
+                    </div>
+                </section>
+            </div>
+
+            <script src="./script.js"></script>
+        </main>
+
+    </body>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p> Desenvolvido por Iago IagoBorba</p>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/IagoBorba" target="_blank"><i class="fa fa-github-square"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/iago-borba-petrozziellodev/" target="_blank"><i
+                    class="fa fa-linkedin-square"></i></a>
+        </div>
+    </footer>
+
+</html>
